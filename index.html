@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container py-5">
+        <div class="w-50">
+            <form>
+                <h2>Nhập vào số nguyên và lưu trữ trong mảng</h2>
+                <div class="row">
+                    <div class="col-8">
+                        <input type="number" class="form-control" id="arrayItem" placeholder="Nhập số n">
+                    </div>
+                    <div class="col-4 pl-0">
+                        <button type="button" id="addBtn" class="btn btn-primary w-100">Thêm số</button>
+                    </div>
+                    <div class="col-12 my-1">
+                        <p class="alert alert-success" id="numArrayResult"></p>
+                    </div>
+                </div> 
+            </form>
+        </div>
+        <div class="w-100">
+                <div class="row">
+                    <div class="col-3">
+                        <h5> 1. Tính tổng số dương</h5>
+                        <button id="bai1Btn" class="btn btn-primary w-100 mb-1">Tính</button>
+                        <p  class="alert alert-success" id="bai1Result"></p>
+                    </div>
+                    <div class="col-3">
+                        <h5> 2. Đếm số dương</h5>
+                        <button id="bai2Btn" class="btn btn-primary w-100 mb-1">Đếm</button>
+                        <p  class="alert alert-success" id="bai2Result"></p>
+                    </div>
+                    <div class="col-3">
+                        <h5> 3. Tìm số nhỏ nhất</h5>
+                        <button id="bai3Btn" class="btn btn-primary w-100 mb-1">Tìm số</button>
+                        <p  class="alert alert-success" id="bai3Result"></p>
+                    </div>
+                    <div class="col-3">
+                        <h5> 4. Tìm số dương nhỏ nhất</h5>
+                        <button id="bai4Btn" class="btn btn-primary w-100 mb-1">Tìm số</button>
+                        <p  class="alert alert-success" id="bai4Result"></p>
+                    </div>
+                </div>
+         
+        </div>
+    </div>
+
+        <!-- Bootstrap -->
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
+        <script src="./js/luuTruMang.js"></script>
+        <script src="./js/bai1.js"></script>
+        <script src="./js/bai2.js"></script>
+        <script src="./js/bai3.js"></script>
+        <script src="./js/bai4.js"></script>
+</body>
+</html>
